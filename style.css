@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+html{
+    transform: scale(0.85);
+}
+body{
+    display: grid;
+    justify-content: center;
+    background-color: hsl(36, 100%, 99%);
+    font-size: 15px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+}
+.header{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+}
+.logo{
+
+}
+.headerTabs{
+    display: flex;
+    justify-content: flex-end;
+}
+.tabs{
+    list-style: none;
+    margin-left: 50px;
+    font-family: 'Inter', sans-serif;
+    color: hsl(236, 13%, 42%);
+    cursor: pointer;
+}
+.tabs:hover{
+    color:hsl(35, 77%, 62%);
+}
+.content{
+    display: grid;
+    grid-template-rows: 65% 15%;
+    height: 100vh;
+    width: 100%;
+}
+.centerContent{
+    display: grid;
+    grid-template-columns: 64% 36%;
+    width: 100%;
+    height: 100%;
+}
+.centerLeft{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: 100%;
+    height: 100%;
+}
+.centerLeftImage{
+    width: 100%;
+    height: 100%;
+}
+.innerCenterLeft{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.centerLeftHeader{
+    position: relative;
+    top: 15px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.descriptionContainer{  
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+.centerLeftDescription{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    color: hsl(236, 13%, 42%);
+    position: relative;
+    top: 5px;
+}
+.readMoreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(233, 8%, 79%);
+    cursor: pointer;
+    align-self: end;
+}
+.readMoreButton:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+.centerRight{
+    background-color: hsl(240, 100%, 5%);
+    width: 80%;
+    height: 100%;
+    justify-self: end;
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.newHeading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+    font-size: 3em;
+}
+.centerRightLabel{
+    font-family: 'Inter', sans-serif;
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+}
+.centerRightLabel:hover{
+    color: hsl(35, 77%, 62%);
+}
+.centerRightInfo{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+}
+.topInfo, .midInfo{
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+.bottomContent{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: 100%;
+    height: 100%;
+}
+.bottomContainers{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.bottomImages{
+    position: relative;
+    top: 10px;
+    width: 80%;
+    height: 70%;
+    padding-left: 10px;
+}
+.bottomInfo{
+    position: relative;
+    bottom: 10px;
+    height: 75%;
+    width: 100%;
+}
+.bottomHeader, .bottomDescription{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+}
+.bottomDescription{
+    position: relative;
+    bottom: 10px;
+    color: hsl(236, 13%, 42%);
+}
+.bottomLabel{
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.bottomLabel:hover{
+    color: hsl(35, 77%, 62%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
